@@ -7,11 +7,21 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  font-size: 0.9em;
 }
 figure {
   /* border: solid purple 3px; */
   margin: 0;
   padding: 10px;
+}
+h2 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  align-self: center;
+}
+h3 {
+  font-size: 0.9em;
 }
 
 header figure img {
@@ -21,12 +31,10 @@ header figure img {
   /* border: solid red 3px; */
 }
 header {
-  /* position: fixed;
-  top: 0; */
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
+
   border: solid green 3px;
   padding-top: 10px;
   height: 20%;
@@ -36,6 +44,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: rgba(240, 248, 255, 1);
   border: solid black 1px;
   box-shadow: 0 0 10px black;
@@ -45,6 +54,7 @@ header {
 main {
   border: solid 2px orange;
   display: flex;
+  flex-direction: column;
 }
 
 aside {
@@ -53,6 +63,19 @@ aside {
 
 footer {
   border: solid black 2px;
+  background-color: #f4f0e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  border: solid green 2px;
+  display: flex;
+  flex-direction: column;
+}
+.contact > p {
+  margin: 10px;
 }
 
 /* ___________________________________________________________________________TABLETTE___________________________________________________________________ */
