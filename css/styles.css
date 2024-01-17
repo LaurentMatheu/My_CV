@@ -9,10 +9,25 @@ body {
   height: 100vh;
   font-size: 0.9em;
 }
+button {
+  justify-self: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+.display {
+  display: none;
+}
 figure {
   /* border: solid purple 3px; */
   margin: 0;
   padding: 10px;
+}
+h1 {
+  align-self: center;
+  justify-self: center;
 }
 h2 {
   text-align: center;
